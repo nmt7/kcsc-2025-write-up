@@ -15,3 +15,10 @@ II. PWN.
   + some clues that might be necessary(?): Exposed 1337 TCP, WORKDIR /home/main, ADD ./flag /, ADD ./main /home/main.
   + maybe this task needs to be solve with socat?
   + User input returns the same so might need to use some sort of injection?
+
+III. Forensics.
+- Powershell 101:
+![Screenshot_2025-01-19_19_57_56](https://github.com/user-attachments/assets/6a725484-5e6e-4f38-a075-d07109bf9870)
+  + used pwsh.
+  + converted the base64 code(not sure if it's relevant, but worth a try.):
+    ![Screenshot_2025-01-19_20_00_32](https://github.com/user-attachments/assets/40911a73-1265-45a6-8eb5-1e034820b2c3)
