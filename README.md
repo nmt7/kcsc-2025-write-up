@@ -12,8 +12,6 @@ I. Reverse engineering.
 
 II. PWN.
 - AAA:
-![Screenshot_2025-01-19_19_34_18](https://github.com/user-attachments/assets/eff32513-8c3c-446b-bbd8-dcfdb74eb390)
-
   + some clues that might be necessary(?): Exposed 1337 TCP, WORKDIR /home/main, ADD ./flag /, ADD ./main /home/main.
   + maybe this task needs to be solve with socat?
   + User input returns the same so might need to use some sort of injection?
